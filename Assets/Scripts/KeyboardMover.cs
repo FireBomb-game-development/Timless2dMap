@@ -35,6 +35,7 @@ public class KeyboardMover : MonoBehaviour {
             Vector3 movement = moveAction.ReadValue<Vector2>(); // Implicitly convert Vector2 to Vector3, setting z=0.
             //Debug.Log("movement: " + movement);
             return transform.position + movement;
+            
         } else {
             return transform.position;
         }
