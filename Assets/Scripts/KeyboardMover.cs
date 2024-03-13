@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
-
+using UnityEngine.UI;
 
 /**
  * This component allows the player to move by clicking the arrow keys.
