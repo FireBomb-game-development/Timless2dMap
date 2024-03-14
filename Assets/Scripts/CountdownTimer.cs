@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using UnityEngine.UI;
+
 
 
 public class CountdownTimer : MonoBehaviour
@@ -19,12 +19,8 @@ public class CountdownTimer : MonoBehaviour
     [SerializeField]private float timeToDie;
 
     
-    private Text timerSecoends;
+    [SerializeField]private TextMeshProUGUI  timerSecoends;
     // Start is called before the first frame update
-    void Start()
-    {
-        timerSecoends = GetComponent<Text>();   
-    }
 
     public void Heal(int amunt){
     HP = Mathf.Min( HP + amunt ,maxHP);
