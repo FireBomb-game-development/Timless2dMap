@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
  public void playGame()
     {
-        SceneManager.LoadScene("intrudaction");
+        SceneManager.LoadScene("open");
         Time.timeScale = 1f;
     }
 }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028353, g: 0.22571383, b: 0.30692253, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465788, g: 0.49641287, b: 0.5748173, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -202,17 +202,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\twellcome!\nto a TimeLess World!!!\n\nIn a land where time itself is
-    the currency of existence, welcome to the realm of Elysium, where every heartbeat
-    echoes with the weight of eternity. Here, amid the shifting sands of time and
-    the whispers of ancient spirits, adventurers tread cautiously, for to lose time
-    is to lose life itself.\n\nBut amidst the danger, opportunities abound. As Frodo,
-    the fate of Elysium rests upon your shoulders. Forge alliances with fellow travelers,
-    uncover the secrets of the ages, and defy the relentless march of time itself.
-    For in Elysium, every moment is precious, and every decision holds the power
-    to shape the course of history.\n\nStep forth, brave Frodo, and embark on a journey
-    that will echo through eternity. The fate of Elysium hangs in the balance, and
-    only you have the power to determine its destiny.\n\n"
+  m_text: ' to the timeless world!
+
+    here almost evrything can kill you...
+
+    nothing
+    safe
+
+    you  name is frodo
+
+    and you mession is to survive as long as you
+    can.
+
+    if you will not eat you will die.
+
+    if you wil not heal when you
+    get hurt you will also die.
+
+    so keep safe when you start you jurnery'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -476,13 +483,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 438695703}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.57521945, y: 0, z: 0, w: 0.8179992}
-  m_LocalPosition: {x: -7.82, y: 1, z: -14.87}
+  m_LocalRotation: {x: -0.12809935, y: -0.0077891843, z: -0.0010061096, w: 0.9917303}
+  m_LocalPosition: {x: 48.86, y: 4.4, z: -136.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -70.23, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -14.72, y: -0.9, z: 0}
 --- !u!1 &507486093
 GameObject:
   m_ObjectHideFlags: 0
@@ -516,11 +523,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelToLoad: open
-  timer: 60
+  timer: 1
   HP: 100
   hunger: 100
   hungerScale: 0
   timeToDie: 0
+  timerSecoends: {fileID: 0}
 --- !u!224 &507486095
 RectTransform:
   m_ObjectHideFlags: 0
