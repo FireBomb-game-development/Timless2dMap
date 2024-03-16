@@ -10,8 +10,8 @@ public class CountdownTimer : MonoBehaviour
 {
     [SerializeField ]public string levelToLoad;
     [SerializeField]private float timer;
-    [SerializeField]private float HP =100;
-    private float maxHP =100;
+    [SerializeField]public static float HP =100;
+    public static float maxHP =100;
     private float maxHunger =100;
     [SerializeField]private float hunger =100f;
     [SerializeField]private float hungerScale =0.1f;
@@ -20,11 +20,15 @@ public class CountdownTimer : MonoBehaviour
 
     
     [SerializeField]private TextMeshProUGUI  timerSecoends;
+
+
+
     // Start is called before the first frame update
 
-    public void Heal(int amunt){
-    HP = Mathf.Min( HP + amunt ,maxHP);
-    }
+   // public void Heal(int amunt){
+   // HP = Mathf.Min( HP + amunt ,maxHP);
+ //   }
+
 
       public void Eat(int amunt){
         Debug.Log("Eating");

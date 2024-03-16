@@ -22,5 +22,6 @@ public class RitryGame : MonoBehaviour
     {
         SceneManager.LoadScene("open");
         Time.timeScale = 1f;
+        CountdownTimer.HP =100;
     }
 }

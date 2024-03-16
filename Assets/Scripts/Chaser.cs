@@ -15,6 +15,9 @@ public class Chaser : TargetMover
 
     private void Update()
     {
-        SetTarget(targetObject.position);
+        if (!ReferenceEquals(targetObject, null))
+        {
+            SetTarget(targetObject.position);
+        }
     }
 }
